@@ -1,0 +1,35 @@
+/*=====标签定义======*/
+*{margin:0; padding:0;}
+body{
+    font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    -webkit-font-smoothing:antialiased;
+
+}
+img{border:none;}
+ul li{  list-style:none;  }
+a,a:hover{ text-decoration:none; color:#666}
+form{display: inline-block;}
+i{font-style: inherit}
+input{outline: 0 none;}
+/*=====标签定义======*/
+/*全局*/
+.minw1300{min-width:1300px;margin:0 auto;}
+.w1300{width:1300px;margin:0 auto;}
+.float_le{float: left}
+.float_ri{float: right}
+.clear_both{ clear: both; }
+.display_bl{display: block;}
+.display_no{display: none;}
+/*字体*/
+.Sim_Suncss{font: 12px/1.5 "SimSuncss", 宋体,"Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+.Ya_Hei{font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+
+/*1111111111*/
+.annihilate_bug {
+    height: 600px;
+    text-align: center;
+}
+#annihilate_bug{
+    height: 600px;
+    border: 1px solid #ccc;
+}

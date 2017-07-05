@@ -1,0 +1,143 @@
+/*2017.06.25*/
+/*=====标签定义======*/
+*{margin:0; padding:0;}
+body{
+    font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    -webkit-font-smoothing:antialiased;
+    color: #666;
+}
+img{border:none;}
+ul li{  list-style:none;  }
+a,a:hover{ text-decoration:none; color:#666}
+form{display: inline-block;}
+i{font-style: inherit;}
+input{outline: 0 none;}
+b{font-weight: normal;}
+/*=====标签定义======*/
+/*全局*/
+.minw1300{min-width:1300px;margin:0 auto;}
+.w1300{max-width:1300px;margin:0 auto;}
+.float_le,.float_le_ri{float: left}
+.float_ri,.float_ri_le{float: right}
+.clear_both{ clear: both; }
+.display_bl{display: block;}
+.display_no{display: none;}
+/*字体*/
+.Sim_Suncss{font: 12px/1.5 "SimSuncss", 宋体,"Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+.Ya_Hei{font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+
+
+/**/
+body,html{height: 100%;}
+.fenxiang{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    min-width: 500px;
+    transition: all 2s linear;
+    /* Firefox 4 */
+    -moz-transition:all 2s linear;
+    /* Safari and Chrome */
+    -webkit-transition:all 2s linear;
+    /* Opera */
+    -o-transition:all 2s linear;
+}
+
+.fenxiang_le{background: #88D8E4;}
+.fenxiang_ri{background: #E5A725;}
+
+.fenxiang_le,.fenxiang_ri{
+    height: 100%;
+    width: 49.999%;
+    position: relative;
+    display: table;
+}
+.fenxiang_le .fenxiang_leimg{
+    position: absolute;
+    right: -115px;
+    z-index: 15;
+    height: 100%;
+    top: 0;
+}
+.fenxiang_leimg img{
+    height: 100%;
+    width: 227px;
+}
+.fenxiang_lediv{
+    vertical-align:middle;
+    display: table-cell;
+}
+.fenxiang_lebut{
+    width: 200px;
+    height: 55px;
+    line-height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+}
+.fenxiang_lebuta{
+    cursor: pointer;
+    display: inline-block;
+    width:100%;
+    background: #88D8E4;
+    color: #fff;
+    font-size:16px;
+    position: relative;
+    transition: all .2s linear;
+    /* Firefox 4 */
+    -moz-transition:all .2s linear;
+    /* Safari and Chrome */
+    -webkit-transition:all .2s linear;
+    /* Opera */
+    -o-transition:all .2s linear;
+}
+.fenxiang_lebuta:hover{
+    background: #E5A725;
+    color: #fff;
+}
+.butss .fenxiang_lebuta{background: #E5A725;}
+.fenxiang_lebut:hover.butss .fenxiang_lebuta{
+    background: #88D8E4;
+    color: #fff;
+}
+.fenxiang_lebuta img{
+    position: relative;
+    right: -10px;
+    top: 2px;
+    transition: all .2s linear;
+    /* Firefox 4 */
+    -moz-transition:all .2s linear;
+    /* Safari and Chrome */
+    -webkit-transition:all .2s linear;
+    /* Opera */
+    -o-transition:all .2s linear;
+}
+.fenxiang_lebuta:hover.fenxiang_lebuta img{
+    right: -15px;
+}
+.xian1,.xian2,.xian3,.xian4{
+    background:#fff;
+    position: absolute;
+    transition: all .4s linear;
+    /* Firefox 4 */
+    -moz-transition:all .4s linear;
+    /* Safari and Chrome */
+    -webkit-transition:all .4s linear;
+    /* Opera */
+    -o-transition:all .4s linear;
+}
+.xian1{top: 0;left: 0;width: 0;height: 1px;}
+.xian2{top: 0;right: 0;width: 1px;height:0;}
+.xian3{bottom: 0;right: 0;width: 0;height: 1px;}
+.xian4{bottom: 0;left: 0;width: 1px;height:0;}
+
+.fenxiang_lebut:hover .xian1{width: 200px;}
+.fenxiang_lebut:hover .xian2{height: 55px;}
+.fenxiang_lebut:hover .xian3{width: 200px;}
+.fenxiang_lebut:hover .xian4{height: 55px;}
+
+
+
+
+

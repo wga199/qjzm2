@@ -1,0 +1,204 @@
+/*2017.03.31*/
+/*=====标签定义======*/
+*{margin:0; padding:0;}
+body{
+    font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    -webkit-font-smoothing:antialiased;
+    color: #666;
+}
+img{border:none;}
+ul li{  list-style:none;  }
+a,a:hover{ text-decoration:none; color:#666}
+form{display: inline-block;}
+i{font-style: inherit;}
+input{outline: 0 none;}
+b{font-weight: normal;}
+/*=====标签定义======*/
+/*全局*/
+.minw1300{min-width:1300px;margin:0 auto;}
+.w1300{max-width:1300px;margin:0 auto;}
+.float_le,.float_le_ri{float: left}
+.float_ri,.float_ri_le{float: right}
+.clear_both{ clear: both; }
+.display_bl{display: block;}
+.display_no{display: none;}
+/*字体*/
+.Sim_Suncss{font: 12px/1.5 "SimSuncss", 宋体,"Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+.Ya_Hei{font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+
+/*导航*/
+.header{
+    height: 80px;
+    background: #444;
+    line-height: 80px;
+    color: #666;
+    text-align: center;
+}
+.header a{
+    color: #ddd;
+}
+
+/*nr*/
+
+.subject_content{
+    padding: 20px 0;
+    background: url(../../resource/img/liebiao/bg.png) left top repeat;
+}
+/*框体*/
+.sub_content{
+    /*background: #FEFEFE;*/
+}
+.sub_hbh4{
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.sub_con_ulnrle{
+    width: 120px;
+    position: relative;
+    /*height: 60px;*/
+    margin-top: 15px;
+}
+.sub_con_ulnrri{
+    padding:0 5px;
+    padding-left: 130px;
+    line-height: 25px;
+    border-bottom: 1px dashed #eee;
+
+}
+.sub_con_ulnrridiv{
+    padding:15px 10px;
+    /*-webkit-transition: all .5s ease-in;*/
+    transition: all .5s;
+    -moz-transition: all .5s; /* Firefox 4 */
+    -webkit-transition: all .5s; /* Safari 和 Chrome */
+    -o-transition: all.5s; /* Opera */
+}
+.sub_con_ulnrridiv:hover{
+    background: rgba(51, 51, 51, 0.06);
+}
+.sub_con_ulnrridiv a{
+    font-size: 14px;
+    margin-right: 20px;
+    white-space: nowrap;
+    display: inline-block;
+}
+.sub_con_ulnrridiv a:hover{
+    text-decoration: underline;
+}
+/**/
+.sub_contentul{}
+.sub_contentul>li{
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+.icon-inew{
+    text-transform: uppercase;
+    color: red;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/**/
+.sub_con_ulnr{}
+.sub_con_ulnr>li{
+    /*overflow: hidden;*/
+}
+
+.sub_con_linkaft{
+    position: absolute;
+    left: 0;
+    /*padding: 2px 0;*/
+    /*width: 100px;*/
+    padding: 3px 5px;
+    background-color: #eee;
+    border-radius: 3px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+.sub_con_linkaft div{
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 100px;
+    cursor: default;
+}
+.sub_con_linkaft:after{
+    content: '\0020';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 9px;
+    right: -5px;
+    border-left: 5px solid #eee;
+    border-right: 0 none;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    _color: #FF3FFF;
+    _filter: chroma(color=#FF3FFF);
+}
+
+/*分支*/
+.sub_con_ulnrridiv_fz{
+    overflow: hidden;
+}
+.sub_con_ulnrridiv_fzname{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    background: #4d90fe;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    margin-top: 2px;
+}
+.sub_con_ulnrridiv_fznr{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.sub_con_ulnrridiv_fznr.sub_con_ulnrridiv_fznrbott0{
+    margin-bottom: 0;
+}
+
+/*验证*/
+.yanzheng{
+    text-align: center;
+    margin-top: 50px;
+}
+.yanzheng img{
+    width: 97px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+/*title提示框*/
+
+#tooltip {
+	border: 1px solid #444;
+	font-size: 14px;
+	max-width: 205px;
+	padding:5px 10px;
+	position: absolute;
+	z-index:2000;
+	text-shadow:none;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}

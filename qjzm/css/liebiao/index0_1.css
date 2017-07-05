@@ -1,0 +1,97 @@
+/*=====标签定义======*/
+*{margin:0; padding:0;}
+body{
+    font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    -webkit-font-smoothing:antialiased;
+    background: #fff;
+    color: #666;
+    /*overflow: hidden;*/
+}
+img{border:none;}
+ul li{  list-style:none;  }
+a,a:hover{ text-decoration:none; color:#666}
+form{display: inline-block;}
+i{font-style: inherit;}
+input{outline: 0 none;}
+b{font-weight: normal;}
+/*=====标签定义======*/
+/*全局*/
+.minw1300{min-width:1300px;margin:0 auto;}
+.w1300{width:1300px;margin:0 auto;}
+.left{float: left}
+.right{float: right}
+.clear_both{ clear: both; }
+.display_bl{display: block;}
+.display_no{display: none;}
+/*字体*/
+.Sim_Suncss{font: 12px/1.5 "SimSuncss", 宋体,"Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+.Ya_Hei{font: 12px/1.5 "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;}
+
+/*侧导航*/
+.sub_content_left{
+    width: 280px;
+    /*min-height: 500px;*/
+    background-color: #e2e2e2;
+    /*margin-bottom: -99999px;*/
+    /*padding: 0 0 99999px;*/
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.sub_content_lefts{
+    min-height: 500px;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    background: url(../../resource/img/liebiao/bg_aside.png) left top repeat;
+    padding:30px 10px;
+    left: 0;
+    top: 0;
+
+}
+
+.sub_head_portrait{
+    text-align: center;
+    height: 200px;
+}
+.sub_head_portrait img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1500px;
+    /*transition:all 2s linear;*/
+    /*-moz-transition: all 2s linear;	!* Firefox 4 *!*/
+    /*-webkit-transition: all 2s linear;	!* Safari 和 Chrome *!*/
+    /*-o-transition: all 2s linear;	!* Opera *!*/
+}
+.sub_head_line{
+    height: 1px;
+    background: #494949;
+    border-bottom: 1px solid #000;
+}
+/*.sub_head_portrait img:hover{*/
+    /*width: 100px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub_content_right{
+    /*background: #666;*/
+    margin-left: 280px;
+    background: url(../../resource/img/liebiao/bg.png) left top repeat;
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*height: 2000px;*/
+}
