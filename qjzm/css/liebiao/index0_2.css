@@ -15,7 +15,7 @@ input{outline: 0 none;}
 b{font-weight: normal;}
 /*=====标签定义======*/
 /*全局*/
-.minw1300{min-width:1300px;margin:0 auto;}
+.minw1300{min-width:300px;margin:0 auto;}
 .w1300{max-width:1300px;margin:0 auto;}
 .float_le,.float_le_ri{float: left}
 .float_ri,.float_ri_le{float: right}
@@ -185,9 +185,21 @@ b{font-weight: normal;}
 }
 
 
+/*媒体查询*/
+
+@media screen and (max-width: 500px) {
+
+    .header{}
+    .sub_contentul>li{
+        padding: 10px;
+    }
+    .sub_con_ulnrri{
+        padding-left:0;
+        padding-top: 50px;
+    }
 
 
-
+}
 
 
 

@@ -43,8 +43,8 @@ body,html{height: 100%;}
     -o-transition:all 2s linear;
 }
 
-.fenxiang_le{background: #88D8E4;}
-.fenxiang_ri{background: #E5A725;}
+.fenxiang_le{background:url("../../resource/img/fenxiang/yx1.png") center no-repeat  #88D8E4;background-size:300px 300px; }
+.fenxiang_ri{background:url("../../resource/img/fenxiang/gjx1.png") center no-repeat  #E5A725;background-size:300px 300px;}
 
 .fenxiang_le,.fenxiang_ri{
     height: 100%;
@@ -74,13 +74,14 @@ body,html{height: 100%;}
     margin: 0 auto;
     text-align: center;
     position: relative;
+    top: 158px;
     z-index: 20;
 }
 .fenxiang_lebuta{
     cursor: pointer;
     display: inline-block;
     width:100%;
-    background: #88D8E4;
+    /*background: #88D8E4;*/
     color: #fff;
     font-size:16px;
     position: relative;
@@ -96,7 +97,7 @@ body,html{height: 100%;}
     background: #E5A725;
     color: #fff;
 }
-.butss .fenxiang_lebuta{background: #E5A725;}
+/*.butss .fenxiang_lebuta{background: #E5A725;}*/
 .fenxiang_lebut:hover.butss .fenxiang_lebuta{
     background: #88D8E4;
     color: #fff;
